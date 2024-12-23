@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.about-btn, .send-btn {
+    background: linear-gradient(140.14deg, #a855f7, #4f46e5) padding-box, linear-gradient(142.51deg, #581c87, #3b0764) border-box;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    text-shadow: 1px 1px 1px #00000040;
+    box-shadow: 8px 8px 20px 0px #26004559;
+    padding: 10px 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 3.5rem;
+}
+
+.about-btn:hover, .send-btn:hover {
+    box-shadow: none;
+    opacity: 80%;
+}
